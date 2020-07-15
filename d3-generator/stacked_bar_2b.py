@@ -145,21 +145,3 @@ class StackedBar2B:
         self._calc_significantly()
         self._fill_data()
         return self._data
-
-
-DATA__StackedBar2b = {
-    'base_size': -1,
-    'name': '',
-    'data': {
-        'n': [450, 350],
-        'values': [
-            {'label': 'Toms of Maine', 'pre': 65, 'post': 75, 'sig': 'pre'},
-            {'label': 'Sensodyne', 'pre': 72, 'post': 92, 'sig': 'pre'},
-            {'label': 'Colgate', 'pre': 68, 'post': 98, 'sig': ''},
-            {'label': 'Arm & Hammer', 'pre': 78, 'post': 88, 'sig': ''},
-            {'label': 'Aquafresh', 'pre': 80, 'post': 90, 'sig': ''},
-            {'label': 'Aim', 'pre': 60, 'post': 80, 'sig': 'post'},
-            {'label': 'Crest', 'pre': 65, 'post': 99, 'sig': 'post'},
-        ]
-    }
-}
